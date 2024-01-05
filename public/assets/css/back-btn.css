@@ -1,0 +1,70 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#homeBtn:hover {
+  color: #4b4747;
+}
+
+.btn {
+  /*float: right;*/
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, a, .td-name, td {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a:focus {
+  outline: none;
+}
+
+*:focus {
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #b0813e;
+  text-decoration: underline;
+}
+
+a:focus, button:focus {
+  outline: none;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: #2d2723;
+}
+
+#homeBtnContainer {
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
